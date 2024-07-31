@@ -9,19 +9,15 @@
 <body>
 <header>
     <h1>Document Management System</h1>
+    <nav>
+        <a href="#" id="employees-link">Employees</a>
+        <a href="#" id="organizations-link">Organizations</a>
+        <a href="#" id="subdivisions-link">Subdivisions</a>
+        <a href="#" id="tasks-link">Tasks</a>
+    </nav>
 </header>
 <main>
-    <div class="sidebar">
-        <ul>
-            <li><a href="#" onclick="loadOrganizations()">Organizations</a></li>
-            <li><a href="#" onclick="loadDepartments()">Departments</a></li>
-            <li><a href="#" onclick="loadEmployees()">Employees</a></li>
-            <li><a href="#" onclick="loadTasks()">Tasks</a></li>
-        </ul>
-    </div>
-    <div class="content" id="content">
-        <!-- Content will be loaded here -->
-    </div>
+    <div id="content"></div>
 </main>
 <script src="script.js"></script>
 </body>
